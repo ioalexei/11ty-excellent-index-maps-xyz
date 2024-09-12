@@ -39,15 +39,10 @@
         {% endfor %}
       </nav>
     </div>
-
-    <!-- theme switch -->
-    {% include 'partials/theme-switch.njk' %}
-
+    
     <aside class="creator">
       <a class="cluster" href="{{ meta.creator.website }}"
-        >Made with <span class="visually-hidden">love</span> <span>{% svg "misc/heart" %}</span> by
-        {{ meta.creator.name }}</a
-      >
+        >Based on a template by {{ meta.creator.name }}</a>
     </aside>
   </div>
 </footer>

@@ -1,23 +1,21 @@
 ---
 title: About
 permalink: /about/index.html
-description: 'Eleventy Excellent is inspired bythe companion website of Andy Bell’s talk "Be the browser’s mentor, not its micromanager".'
+description: 'About Index Maps'
 layout: page
 ---
 
-This starter uses modern CSS, fluid type & space, flexible Layouts and Progressive Enhancement, wrapped in a basic template.
+I am Alexei Schwab, a map-maker and geographic data specialist based in Cardiff, Wales. I've made maps since 2019, working with humanitarian and human rights organisations to visualise reporting, communicate geographic trends and understand spatial patterns in data. Ealier in my career, I worked on housing and regeneration policy in London. 
 
-It is built around the CSS boilerplate by Andy Bell and inspired by Andy's talk **'Be the browser’s mentor, not its micromanager'**.
+# What I do 
+I make maps for print or web using whatever tool is most appropriate, from industry standard software like QGIS or ArcGIS Pro to coding languages like Python and R. 
 
-If you want to know exactly how it all works, [read this article on piccalil.li](https://piccalil.li/blog/a-css-project-boilerplate/).
+For online mapping, I can work with most major platforms and software: ArcGIS Online, Mapbox/MapLibre, Leaflet, OpenLayers and Felt. 
 
-The aim is to spread the idea and use of this _excellent_ workflow. To work with it efficiently you should be familiar with [cube.fyi](https://cube.fyi/), [utopia.fyi](https://utopia.fyi/) and [every-layout.dev](https://every-layout.dev/).
+As well as visualisation, I work on data manipulation and analysis: cleaning messy data, customising third-party datasets, creating new datasets and automating data processes.
 
-- buildexcellentwebsit.es
-- Remix the original: https://glitch.com/edit/#!/remix/build-excellent-websites
-- Study the [original CSS boilerplate](https://github.com/Set-Creative-Studio/cube-boilerplate/tree/main)
-
-## Watch the talk
-
-<div><custom-youtube @slug="JqnMI1AXl6w" @label="Andy Bell – Be the browser’s mentor, not its micromanager"> </custom-youtube></div>
+# Contact
+* [mail@indexmaps.xyz](mailto:mail@indexmaps.xyz)
+* [LinkedIn](https://www.linkedin.com/in/alexei-schwab-22887a78/)
+* [GitHub](https://github.io/ioalexei)
 
