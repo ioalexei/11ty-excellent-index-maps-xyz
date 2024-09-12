@@ -7,11 +7,11 @@ const ogImagesDir = './src/assets/og-images';
 export const svgToJpeg = async function () {
   const socialPreviewImagesDir = 'dist/assets/og-images/';
 
-    if (!existsSync(socialPreviewImagesDir)) {
+  if (!existsSync(socialPreviewImagesDir)) {
     console.log('⚠ No OG images dir found');
     return;
   }
-  
+
   const files = await fsPromises.readdir(socialPreviewImagesDir);
   if (files.length > 0) {
     files.forEach(async function (filename) {
