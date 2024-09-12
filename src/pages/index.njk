@@ -1,11 +1,8 @@
 ---
 layout: base
 permalink: /index.html
-title: 'Eleventy Excellent'
-description: 'Eleventy starter using modern CSS, fluid type, fluid spacing, flexible layout and progressive enhancement.'
-blog:
-  title: 'Blog'
-  intro: "I'm showing the last 4 blog posts, but there might be more!"
+title: 'Index Maps'
+description: 'Maps, data and analysis'
 ---
 
 <div class="wrapper">
@@ -16,6 +13,10 @@ blog:
 
     {% svg "divider/waves", null, "seperator" %}
   </header>
+
+  <div>
+    {% image "./src/assets/images/contours.jpg", "", "" %}
+  </div>
 
   <article class="full | region">
     <div class="wrapper flow prose">
@@ -36,26 +37,4 @@ blog:
       <p><strong>Have fun</strong> and let me know if you find any issues or have ideas for improvements!</p>
     </div>
   </article>
-
-  <section class="full | region">
-    <div class="wrapper flow prose">
-      <h2>{{ blog.title }}</h2>
-      <!-- blog intro text is optional. -->
-
-      {% if blog.intro %}
-        <p>{{ blog.intro }}</p>
-      {% endif %}
-
-      <div class="feature |  region">
-        <custom-masonry layout="50-50">
-          <!-- loop posts -->
-          {% set itemList = collections.allPosts %}
-					{% asyncEach item in itemList.slice(0, 4) %}
-						{% set definedDate = item.date %}
-						{% include "partials/card-blog.njk" %}
-					{% endeach %}
-        </custom-masonry>
-      </div>
-    </div>
-  </section>
 </div>
